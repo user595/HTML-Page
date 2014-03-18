@@ -1,12 +1,24 @@
 ﻿body {
-background: linen;
-width: 500px;
-margin: 200px auto;
+background: #f9e933;
 }
-div {
-border: 5px solid maroon;
-text-align: center;
-padding: 5px;}
-p {
-border: 2px dashed blue;
+header, main, footer {
+min-width: 855px;
+}
+header .container, main .container, footer .container {
+max-width: 855px;
+margin: auto;
+}
+header {
+background: white;
+overflow: auto;
+}
+main {
+background: white;
+}header h1 {
+float: left;
+width: 570px;
+}
+header nav {
+float: right;
+width: 285px;
 }
